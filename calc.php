@@ -9,7 +9,7 @@
 <body>
     <main>
 
-<h1>Calculadora de IMC</h1>
+<h1>Calculadora de IMC</h1><br>
     <form action="calc.php" method="post">
         <label for="peso">Insira seu peso: </label>
         <input type="number" name="peso" id="peso" required><br><br>
@@ -44,7 +44,7 @@ if(isset($peso) && isset($altura)){
     }
 
 } else {
-    echo '';
+    echo '<br>Favor verificar os dados inseridos.';
 }
 
 ?>
